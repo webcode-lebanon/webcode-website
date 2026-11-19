@@ -5,7 +5,7 @@ const translations = {
     stripText:"تقنية مناسبة لاحتياجات عملك",whatWeDo:"ماذا نقدّم؟",servicesTitle:'خدمات رقمية،<br><span>بنتائج ملموسة.</span>',servicesIntro:"نساعد الأفراد والشركات الصغيرة على بناء حضور رقمي أفضل، وأتمتة المهام المتكررة، وتقديم تجربة أسهل لعملائهم.",service1Title:"تطوير المواقع",service1Text:"مواقع تعريفية وتجارية سريعة ومتجاوبة، مصممة لتعرض عملك بصورة احترافية.",service2Title:"بوتات تيليغرام",service2Text:"بوتات للطلبات والحجوزات والإشعارات وخدمة العملاء، مصممة حسب طريقة عملك.",service3Title:"Python والأتمتة",service3Text:"أدوات مخصصة لتنظيم البيانات، معالجة الملفات، وتخفيف الأعمال اليدوية المتكررة.",service4Title:"أنظمة إدارة بسيطة",service4Text:"لوحات متابعة للطلبات والعملاء والمخزون، تساعدك على رؤية عملك بوضوح.",learnMore:"اطلب هذه الخدمة ↗",
     selectedConcepts:"نماذج من الحلول الرقمية",workTitle:'من الفكرة إلى حلّ<br><span>يعمل لأجلك.</span>',workIntro:"كل مشروع يبدأ بحاجة واضحة. هذه تصوّرات توضيحية لأنواع الأنظمة والأدوات التي يمكننا تصميمها لتسهيل العمل، تنظيم التفاصيل، وتوفير الوقت. وهي نماذج عرض وليست مشاريع منفّذة لعملاء.",concept:"تصوّر توضيحي",work1Title:"لوحة إدارة الطلبات",work1Desc:"تابع الطلبات والعملاء وحالة العمل من شاشة واحدة.",work2Title:"بوت استقبال الطلبات",work2Desc:"استقبل طلبات العملاء وأجب عن الاستفسارات تلقائياً.",work3Title:"أداة أتمتة البيانات",work3Desc:"عالج الملفات والبيانات وقلّل المهام اليدوية المتكررة.",workCtaText:"هل تحتاج إلى حل مشابه يناسب طريقة عملك؟ دعنا نناقش فكرتك.",workCta:'اطلب خدمة <span class="arrow">↗</span>',chatDemo1:"مرحباً! كيف يمكننا مساعدتك؟",chatDemo2:"أريد تقديم طلب",
     ourApproach:"نهجنا",aboutTitle:'تقنية مفيدة.<br><span>بلا تعقيد.</span>',aboutText:"WebCode وكالة خدمات رقمية ناشئة تركّز على الحلول العملية للأعمال والأفراد. نبدأ بفهم احتياجك، ثم نقترح حلاً واضحاً ونبنيه خطوة بخطوة.",talkToUs:"لنتحدث عن فكرتك ↗",point1Title:"فهم احتياجك",point1Text:"نحدد المشكلة والنتيجة التي تريد الوصول إليها.",point2Title:"خطة واضحة",point2Text:"نشرح نطاق العمل والوقت والتكلفة قبل البدء.",point3Title:"تنفيذ ومراجعة",point3Text:"نبني الحل ونجربه ونسلّمه بعد المراجعة.",
-    contactEyebrow:"هل لديك فكرة؟",contactTitle:'لنصنع شيئاً<br><span>مفيداً معاً.</span>',contactText:"أخبرنا بما تحتاجه. سنراجع التفاصيل ونتواصل معك لمناقشة الخطوة التالية.",contactNote:"لا يوجد التزام عند إرسال الاستفسار.",emailUs:"راسلنا عبر البريد",whatsappSoon:"قريباً — سنضيف الرقم لاحقاً",soon:"قريباً",formName:"الاسم",formEmail:"البريد الإلكتروني",namePlaceholder:"الاسم الكامل",emailPlaceholder:"name@example.com",detailsPlaceholder:"اكتب بعض التفاصيل عن مشروعك...",chooseService:"اختر الخدمة",formService:"الخدمة المطلوبة",formDetails:"أخبرنا عن مشروعك",sendRequest:"إرسال الاستفسار",formHint:"سيتم تجهيز رسالة لتشاركها معنا عبر بريدك الإلكتروني. لا يتم تخزين بياناتك على هذا الموقع.",footerText:"حلول رقمية عملية للأفكار الطموحة."
+    contactEyebrow:"هل لديك فكرة؟",contactTitle:'لنصنع شيئاً<br><span>مفيداً معاً.</span>',contactText:"أخبرنا بما تحتاجه. سنراجع التفاصيل ونتواصل معك لمناقشة الخطوة التالية.",contactNote:"لا يوجد التزام عند إرسال الاستفسار.",emailUs:"راسلنا عبر البريد",whatsappSoon:"قريباً — سنضيف الرقم لاحقاً",soon:"قريباً",formName:"الاسم",formEmail:"البريد الإلكتروني",namePlaceholder:"الاسم الكامل",emailPlaceholder:"name@example.com",detailsPlaceholder:"اكتب بعض التفاصيل عن مشروعك...",chooseService:"اختر الخدمة",formService:"الخدمة المطلوبة",formDetails:"أخبرنا عن مشروعك",sendRequest:"إرسال الاستفسار",formHint:"سيتم إرسال استفسارك إلى بريدنا عبر خدمة FormSubmit الخارجية.",footerText:"حلول رقمية عملية للأفكار الطموحة."
   },
   en: {
     navServices:"Services",navWork:"Our work",navAbout:"About",navContact:"Contact",startProject:"Start a project",
@@ -70,24 +70,6 @@ document.querySelectorAll(".card-link").forEach(link => {
     }
   });
 });
-
-document.getElementById("contactForm").addEventListener("submit", event => {
-  event.preventDefault();
-  const form = event.currentTarget;
-  if (!form.reportValidity()) return;
-  const data = new FormData(form);
-  const subject = currentLang === "ar" ? "استفسار مشروع جديد — WebCode" : "New project inquiry — WebCode";
-  const chosenService = form.querySelector('select[name="service"]').selectedOptions[0].textContent;
-  const body = currentLang === "ar"
-    ? `الاسم: ${data.get("name")}\nالبريد الإلكتروني: ${data.get("contact")}\nالخدمة: ${chosenService}\n\nتفاصيل المشروع:\n${data.get("details")}`
-    : `Name: ${data.get("name")}\nEmail: ${data.get("contact")}\nService: ${chosenService}\n\nProject details:\n${data.get("details")}`;
-  const mailto = `mailto:webcode.connect@gmail.com?subject=${encodeURIComponent(subject)}&body=${encodeURIComponent(body)}`;
-  document.getElementById("formHint").textContent = currentLang === "ar"
-    ? "سيتم فتح تطبيق البريد لإرسال الاستفسار. لا تُحفظ البيانات على الموقع."
-    : "Your email app will open to send the inquiry. The website does not store your data.";
-  window.location.href = mailto;
-});
-
 
 // Smooth, header-aware navigation for the hero services link.
 document.querySelectorAll('[data-scroll-target]').forEach(link => {
