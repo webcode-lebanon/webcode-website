@@ -273,3 +273,23 @@ body{overscroll-behavior-y:auto;}
 /* Reliable page scrolling while the pointer is over pricing and portfolio content. */
 html,body,main,.pricing-section,.pricing-group,.price-grid,.price-card,.work-section,.work-grid,.work-card{overscroll-behavior-y:auto;touch-action:pan-y;}
 .price-card{overflow:visible;}
+
+/* NOVA Assistant live demo link */
+.bot-live-link{position:relative;color:inherit}.bot-live-link .demo-preview{transition:filter .2s ease}.bot-live-link:hover .demo-preview{filter:brightness(1.12)}.bot-live-mark{position:absolute;left:14px;bottom:14px;padding:7px 9px;border:1px solid rgba(91,220,174,.45);border-radius:6px;background:rgba(7,28,31,.88);color:#79e6bc;font:700 8px "DM Sans",sans-serif;letter-spacing:1px}.live-demo-tag{display:inline-block;color:#79e6bc!important;border-color:rgba(91,220,174,.45)!important;text-decoration:none;transition:background .2s ease,border-color .2s ease}.live-demo-tag:hover{background:rgba(91,220,174,.1);border-color:#79e6bc!important}
+
+/* WebCode portfolio: real demo destinations with consistent visual previews. */
+.portfolio-grid{align-items:stretch;gap:18px}
+.portfolio-card{min-height:0;display:flex;flex-direction:column}
+.portfolio-image-link{position:relative;display:block;overflow:hidden;height:auto;aspect-ratio:16/9;background:#0c1728;border-bottom:1px solid rgba(126,177,216,.18)}
+.portfolio-image{display:block;width:100%;height:100%;object-fit:cover;transition:transform .35s ease,filter .25s ease}
+.portfolio-card:hover .portfolio-image{transform:scale(1.035);filter:brightness(1.04)}
+.portfolio-open-label{position:absolute;left:14px;bottom:13px;padding:7px 10px;border:1px solid rgba(112,214,242,.4);border-radius:6px;background:rgba(5,17,29,.86);color:#a6eaff;font:700 9px 'DM Sans',sans-serif;letter-spacing:1px;backdrop-filter:blur(8px)}
+.portfolio-live-label{border-color:rgba(91,220,174,.45);color:#79e6bc}
+.portfolio-card .work-meta{flex:1;align-items:flex-start;gap:14px;padding:19px 19px 20px}
+.portfolio-card .work-meta>div{min-width:0}
+.portfolio-card .work-meta h3{margin:7px 0 8px;font-size:18px;line-height:1.35}
+.portfolio-category{display:inline-block;color:#70d9f2;font:700 9px 'DM Sans',sans-serif;letter-spacing:1.3px}
+.portfolio-card .work-description{display:block;max-width:440px;line-height:1.85;color:#aebfce;font-size:11px}
+.portfolio-card .work-tag{align-self:flex-end;margin-top:auto;padding:9px 11px;border:1px solid rgba(112,214,242,.25);border-radius:7px;color:#8ee7fa;font-size:10px}
+.portfolio-note{margin:16px 0 0;color:#8fa5b8;font-size:10px;line-height:1.9}
+@media(max-width:700px){.portfolio-card .work-meta{padding:16px}.portfolio-card .work-meta h3{font-size:17px}.portfolio-card .work-tag{margin-top:12px;align-self:flex-start}.portfolio-image-link{aspect-ratio:16/9}}
